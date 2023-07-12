@@ -1,0 +1,39 @@
+.mode_color{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.color_container{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+
+}
+
+
+.colors{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.aqua{
+    background-color:aqua;
+}
+.blue{
+    background-color: blue;
+}
